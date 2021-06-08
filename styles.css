@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.logo{
+    background-image: url("twi1.png");
+    background-size: cover;
+    width: 60%;
+    position: relative;
+}
+
+.logo-inner{
+    font-size: 300px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 35%;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.fa {
+    color: white;
+}
+
+.reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+div a{
+    font-size: 50px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.sign{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 40px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 250px;
+}
+
+.log{
+    background-color: white;
+    color: blue;
+}
+
+.sign:hover{
+    background-color: lightblue;
+ }
+ 
